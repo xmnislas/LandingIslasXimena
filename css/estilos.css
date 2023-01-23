@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+body {
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #fef8f1;
+}
+
+/* Regla de estilo para la imagen de logo */
+img.logo {
+    float: left;
+    width: 176px;
+    height: 75px;
+}
+
+/* Regla de estilo para los textos */
+.campoTexto {
+    width: 460px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #f6e4ee;
+    padding-left: 30px;
+}
+
+input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+label {
+    display: block;
+    float: center;
+}
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #78399f;
+    border-color: #78399f;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+button p {
+    color: #fff;
+}
+
+span {
+    color: #ab4493;
+}
+
+h1 {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #78399f;
+}
+
+h2, h3 {
+    font-size: 30px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #78399f;
+}
+
+p {
+    font-size: 14px;
+    color: #0e0e0e;
+}
+
+/* menu */
+#menuLista ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* elementos del menu */
+#menuLista ul li {
+    background-color: #ea97ca;
+}
+
+/* enlaces del menu */
+#menuLista ul a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#menuLista ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#menuLista ul li:hover {
+    background: #ca71e5;
+}
+
+/* menu desplegable */
+#menuLista ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #eee;
+    padding: 0;
+}
+
+/* elementos del menu desplegable */
+#menuLista ul ul li {
+    float: none;
+    width: 150px
+}
+
+/* enlaces de los elementos del menu desplegable */
+#menuLista ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+}
+
+#menuLista ul li:hover>ul {
+    display: block;
+}
