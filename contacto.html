@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<!--
+    Asignación 1. Manejo de versiones
+    Karla Ximena Islas Cruz ID: 213090
+-->
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="imagenes/logo.png" alt="Logotipo" width="176px" height="75px">
+
+    </header>
+
+    <nav id="menuLista">
+        <br clear="left" />
+        <hr>
+        <ul class="main-links">
+            <li><a href="landingPage.html">Inicio</a></li>
+            <li class="dropdown-li"><a href="landingPage.html">Sobre mí</a>
+                <ul class="dropdown">
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="seriesPeliculas.html">Series Favoritas</a></li>
+                </ul>
+            </li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <br clear="left" />
+        <hr>
+        <div class="campoTexto">
+
+            <div class="formulario">
+                <form action="mailto: karla.islas213090@potros.itson.edu.mx?subject=Contacto" method=post
+                    enctype="text/plain">
+                    <h1><a name="fragmentoContacto">Contacto</a></h3>
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre<span class="obligatorio">*</span></label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                            placeholder="Escribe tu nombre">
+                    </p>
+
+                    <p>
+                        <label for="email" class="colocar_email">Email<span class="obligatorio">*</span></label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio"
+                            placeholder="Escribe tu email">
+                    </p>
+
+                    <p>
+                        <label for="telefono" class="colocar_telefono">Teléfono</label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>
+
+                    <p>
+                        <label for="asunto" class="colocar_asunto">Asunto<span class="obligatorio">*</span></label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                            placeholder="Escribe un asunto">
+                    </p>
+
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje<span class="obligatorio">*</span></label>
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                            placeholder="Escribe tu mensaje"></textarea>
+                    </p>
+
+                    <button type="submit" name="enviar_formulario" id="enviar">
+                        <p>Enviar</p>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <hr />
+        <p align="center"><b>Autor:</b> Karla Ximena Islas Cruz</p>
+        <p align="center"><b>Email:</b> karla.islas213090@potros.itson.edu.mx</p>
+    </footer>
+</body>
+
+</html>
